@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.turtles{
+    left: calc(5rem + 30vw);
+    width: calc(5rem + 30vw);
+}
+
+.turtles2 {
+    left: calc(5rem + 30vw);
+    width: calc(5rem + 30vw);
+    margin-left: calc(1rem + 1vw);
+    margin-top: calc(1rem + 1vw); 
+}
+
+.turtles3 {
+    left: calc(5rem + 30vw);
+    width: calc(5rem + 20vw);
+    height: calc(5rem + 22vw);
+}
+
+.container {
+    margin-top: calc(5rem + 5vw);
+    margin-bottom: calc(5rem + 5vw);
+}
