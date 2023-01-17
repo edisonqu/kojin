@@ -77,7 +77,7 @@ function Home() {
 
 
     return (
-        <div>
+        <div className={'overflow-hidden'}>
             {isLoaderVisible && <img src={GIF} className={'h-screen w-screen fixed z-50 overflow-hidden'}></img>}
             <Hero/>
             <About/>

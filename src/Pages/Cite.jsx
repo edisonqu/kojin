@@ -13,8 +13,7 @@ function Cite() {
     return(
         <div>
             <Hero/>
-            <Header/>
-            <Body/>
+
 
         </div>
     )
