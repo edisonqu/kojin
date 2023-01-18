@@ -107,8 +107,8 @@ function Political() {
         <div>
             <Hero/>
             <About/>
-            <ImageGrid data = {imageGrid_data}/>
-            <ThreeCards data = {threeCards_data}/>
+            {/*<ImageGrid data = {imageGrid_data}/>*/}
+            {/*<ThreeCards data = {threeCards_data}/>*/}
             <Footer/>
 
 

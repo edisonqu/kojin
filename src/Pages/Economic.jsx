@@ -42,7 +42,7 @@ function Economic() {
         <div>
             <Hero/>
             <About/>
-            {about_datas.map(data => <Content data={data}/>)}
+            {/*{about_datas.map(data => <Content data={data}/>)}*/}
             <Footer/>
 
         </div>
