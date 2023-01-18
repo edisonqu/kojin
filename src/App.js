@@ -15,7 +15,6 @@ import Recs from "./Pages/Recs";
 import Cite from "./Pages/Cite";
 
 function App() {
-    var Logo = require("./Assets/atf_logo.png")
 
     return (
         <div>

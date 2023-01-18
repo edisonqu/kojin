@@ -7,7 +7,7 @@ export const Blog = () => (
             {/* Section: Design Block */}
             <section className="mb-32 text-gray-800">
                 <img
-                    src="https://mdbootstrap.com/img/new/slides/198.jpg"
+                    src="https://e0.pxfuel.com/wallpapers/694/534/desktop-wallpaper-chinese-democracy-red-hand-use-your-illusion-guns-n-roses-forum.jpg"
                     className="w-full shadow-lg rounded-lg mb-6"
                     alt=""
                 />

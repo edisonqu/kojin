@@ -9,40 +9,106 @@ import Hero from "../Components/Hero/Hero";
 import About from "../Components/Content/About";
 import Content from "../Components/Content/Content";
 import Footer from "../Components/Footer/Footer";
+import ImageGrid from "../Components/Tailwind/ImageGrid";
+import ThreeCards from "../Components/Header/ThreeCards";
+import { BuildingOffice2Icon, BanknotesIcon, GlobeAsiaAustraliaIcon, ScaleIcon,FlagIcon } from '@heroicons/react/24/outline'
+
+
+
+/*
+
+
+
+
+
+
+
+
+ */
+
+/*
+Head of state: The current head of state is a President who is elected by popular vote.
+
+Stability of government: The government is stable, with a strong commitment to democracy, transparency, and the rule of law.
+
+Military role in your country: The military plays a defensive role, and is not involved in the day-to-day governance of the country.
+ */
 
 
 function Political() {
-    const about_datas = [{
-        title1: 'Learn more about Kojin',
-        subtitle1: 'Political and Legal Information',
-        p1: 'Kojin is a democratic nation with a presidential system of government. The President is the head of state and government, and is elected by the citizens through a popular vote. The President serves a four-year term and is eligible for re-election. The President has the power to veto legislation and appoint judges to the judiciary, among other powers.',
-        p2: 'The legal system in Kojin is based on civil law, with a separate system of administrative courts to handle disputes between citizens and the government. The judiciary is independent and operates separately from the legislative and executive branches of government. The constitution guarantees the rights of citizens, including freedom of speech, religion, and assembly. The country also has a robust system of checks and balances to ensure that no one branch of government becomes too powerful.',
-        image1:'https://i0.wp.com/oecd-development-matters.org/wp-content/uploads/2020/10/democracy-voting-1.jpg?resize=1000%2C567&ssl=1',
-        image1Redirect:'political',
-        subtitle2:'Economic Information',
-        p3:"Kojin's economic system is a mixed economy, with a balance of both private enterprise and government intervention. The country is highly developed with a diversified and robust economy, which is reflected by its high ranking on the Economic Freedom Index. The index number for Kojin is currently at 80.7, which places it among the top countries in the world in terms of economic freedom.",
-        p4:"The Gross Domestic Product of the country is strong, with a GDP of $6.77 trillion, which is the result of a well-functioning market economy, low barriers to trade and investment, and a highly educated and skilled workforce. The country's economy is driven by various sectors including manufacturing, services, and tourism. Kojin also has a low unemployment rate and a high standard of living.",
-        image2:'https://images.mktw.net/im-650088?width=700&height=393',
-        image2Redirect:'economic',
-    },{
-        title1: '',
-        subtitle1: 'Technological and Infrastructure',
-        p1: 'Kojin is a technologically advanced country with a highly developed infrastructure. The country has a high overall WEF Global Competitiveness Ranking, currently at the top 10, reflecting its strong performance in areas such as technological readiness, innovation, and business sophistication.',
-        p2: 'The country has a well-established and highly efficient transportation infrastructure, including a comprehensive network of highways, railroads, and airports. Additionally, Kojin has a robust telecommunications infrastructure, with widespread access to high-speed internet and mobile services.',
-        image1:'https://t4.ftcdn.net/jpg/03/08/69/75/360_F_308697506_9dsBYHXm9FwuW0qcEqimAEXUvzTwfzwe.jpg',
-        image1Redirect:'advantages',
-        subtitle2:'Socio-Cultural Information',
-        p3:'Kojin is a culturally diverse country, with a population of around 150 million people. The majority of the population speaks the official language, which is a blend of both Korean and Japanese languages, but there are also many other languages spoken by different communities. The country is known for its rich cultural heritage, with a mixture of traditional customs and modern influences.',
-        p4:'Sport plays an important role in Kojin\'s culture, with a variety of major sporting leagues. The most popular sports in the country include soccer, baseball, and basketball. The country has a strong sporting culture, with many top-level teams and players competing at the national and international level. The country also has many world-class sports facilities and stadiums, which are regularly used to host major sports events.',
-        image2:'https://assets.weforum.org/article/image/lsY_TFqKMEnOjvD6VtqutBxOULu_RlqUZzIk4zcJPMk.JPG',
-        image2Redirect:'socio',
 
-    }]
+
+    const imageGrid_data = {
+        bigTitle: 'Political Information on Kojin',
+        description: 'Kojin is a democratic country with a presidential system of government, stable political environment and open business policies, led by an elected President and a defensive military role.\n',
+        images: [
+            {image: 'https://tailwindui.com/img/ecommerce-images/product-feature-03-detail-04.jpg'},
+            {image: 'https://tailwindui.com/img/ecommerce-images/product-feature-03-detail-04.jpg'},
+            {image: 'https://tailwindui.com/img/ecommerce-images/product-feature-03-detail-04.jpg'},
+            {image: 'https://tailwindui.com/img/ecommerce-images/product-feature-03-detail-04.jpg'},
+            {image: 'https://tailwindui.com/img/ecommerce-images/product-feature-03-detail-04.jpg'},
+            {image: 'https://tailwindui.com/img/ecommerce-images/product-feature-03-detail-04.jpg'},
+        ]
+        ,
+        features: [{
+            name: 'Historical background',
+            description: 'Kojin has a rich history that has shaped its current business environment. The blending of cultures and traditions of Japan and South Korea have created a unique environment that is open to different perspectives and ways of doing business. This has led to a diverse and dynamic business environment that is well suited to hosting the World Cup.',
+        },
+            {
+                name: 'Current Political issues',
+                description: "Kojin's political environment is stable and conducive to business. There are no major political issues affecting the business climate at the moment. The government is supportive of business development and investment, and there is a strong focus on fostering innovation and technology.",
+
+            },
+            {
+                name: 'Tariffs, quotas, embargoes',
+                description: 'Kojin does not have any tariffs, quotas, or embargoes that would impact business. The country is open to trade and investment, and there are few barriers to entry for foreign companies.',
+
+            },
+            {
+                name: 'Type of political and economic system',
+                description: 'Kojin has a democratic presidential system of government, with a legal system based on civil law. The economy is a mix of private enterprise and government intervention, which provides a stable environment for business and investment.',
+
+            },
+
+            {
+                name: 'Government’s views on trade',
+                description: 'The government has a pro-trade stance and is committed to fostering an open and competitive business environment.',
+
+            },
+            {
+                name: 'Foreign relations and international disputes',
+                description: 'Kojin maintains friendly relations with most countries and is not currently involved in any major international disputes. The country is committed to fostering peaceful and cooperative relationships with other nations.\n',
+
+            }]
+
+    }
+/*
+:
+
+:
+
+:
+
+ */
+    const threeCards_data = {
+        title:'Political Facts About Kojin',
+        info1:'Head of state',
+        info2:'Stability of government',
+        info3:'Military role in your country',
+        description1:'The current head of state is a President who is elected by popular vote.',
+        description2:'The government is stable, with a strong commitment to democracy, transparency, and the rule of law.',
+        description3:'The military plays a defensive role, and is not involved in the day-to-day governance of the country.',
+        icon1:ScaleIcon,
+        icon2:BanknotesIcon,
+        icon3:FlagIcon,
+    }
+
     return(
         <div>
             <Hero/>
             <About/>
-            {about_datas.map(data => <Content data={data}/>)}
+            <ImageGrid data = {imageGrid_data}/>
+            <ThreeCards data = {threeCards_data}/>
             <Footer/>
 
 
