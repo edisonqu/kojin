@@ -6,6 +6,7 @@ import Header from '../Components/Header/Header'
 import Navbar from '../Components/Navbar/Navbar';
 import Body from '../Components/Body/Body';
 import Hero from "../Components/Hero/Hero";
+import {Otherblog} from "../Components/Content/otherblog";
 
 
 function Cite() {
@@ -13,7 +14,7 @@ function Cite() {
     return(
         <div>
             <Hero/>
-
+            <Otherblog/>
 
         </div>
     )

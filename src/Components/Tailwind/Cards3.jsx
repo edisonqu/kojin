@@ -33,12 +33,10 @@ export default function Cards3 (props) {
                                     </div>
                                 </div>
                                 <div className="p-6">
-                                    <h5 className="font-bold text-lg mb-3">My paradise</h5>
+                                    <h5 className="font-bold text-lg mb-3">The Kojin Grand Hotel</h5>
 
                                     <p className="mb-4 pb-2">
-                                        Ut pretium ultricies dignissim. Sed sit amet mi eget urna
-                                        placerat vulputate. Ut vulputate est non quam dignissim
-                                        elementum. Donec a ullamcorper diam.
+                                        A luxurious five-star hotel located in the heart of the city, just a short distance from the main stadiums where the world cup matches will take place. The hotel features elegant guest rooms and suites, a full-service spa, fitness center, and multiple dining options. The hotel also has a grand ballroom and meeting spaces for events and conferences, making it the perfect option for fans and teams looking for luxury accommodation during the tournament.
                                     </p>
                                     <a
                                         href="#!"
@@ -72,12 +70,10 @@ export default function Cards3 (props) {
                                     </div>
                                 </div>
                                 <div className="p-6">
-                                    <h5 className="font-bold text-lg mb-3">Travel to Italy</h5>
+                                    <h5 className="font-bold text-lg mb-3">The Eastern Charm Hotel</h5>
 
                                     <p className="mb-4 pb-2">
-                                        Suspendisse in volutpat massa. Nulla facilisi. Sed aliquet
-                                        diam orci, nec ornare metus semper sed. Integer volutpat
-                                        ornare erat sit amet rutrum.
+                                        A boutique hotel that combines traditional Kojin culture with modern amenities, perfect for those who want to experience the culture of the host country while enjoying the tournament. The hotel is located close to the city's main stadiums and transportation networks, allowing guests to easily attend the world cup matches. The hotel features tastefully decorated guest rooms and suites, a rooftop terrace with a garden, and a restaurant that serves traditional Kojin cuisine.
                                     </p>
                                     <a
                                         href="#!"
@@ -111,12 +107,10 @@ export default function Cards3 (props) {
                                     </div>
                                 </div>
                                 <div className="p-6">
-                                    <h5 className="font-bold text-lg mb-3">Chasing the sun</h5>
+                                    <h5 className="font-bold text-lg mb-3">The Pacific Oasis Hotel</h5>
 
                                     <p className="mb-4 pb-2">
-                                        Curabitur tristique, mi a mollis sagittis, metus felis mattis
-                                        arcu, non vehicula nisl dui quis diam. Mauris ut risus eget
-                                        massa volutpat feugiat. Donec.
+                                        A beachfront hotel that offers a serene escape from the hustle and bustle of the city and is perfect for those who want to combine a beach vacation with watching the world cup. The hotel is located just a short drive from the main stadiums and provides comfortable guest rooms and suites, a large outdoor pool, and a restaurant that serves seafood and tropical cocktails. The hotel also has a fitness center, spa and direct access to the sandy beach. Guests can enjoy the matches and then relax by the beach afterwards.
                                     </p>
                                     <a
                                         href="#!"

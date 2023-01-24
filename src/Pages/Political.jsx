@@ -42,12 +42,12 @@ function Political() {
         bigTitle: 'Political Information on Kojin',
         description: 'Kojin is a democratic country with a presidential system of government, stable political environment and open business policies, led by an elected President and a defensive military role.\n',
         images: [
-            {image: 'https://tailwindui.com/img/ecommerce-images/product-feature-03-detail-04.jpg'},
-            {image: 'https://tailwindui.com/img/ecommerce-images/product-feature-03-detail-04.jpg'},
-            {image: 'https://tailwindui.com/img/ecommerce-images/product-feature-03-detail-04.jpg'},
-            {image: 'https://tailwindui.com/img/ecommerce-images/product-feature-03-detail-04.jpg'},
-            {image: 'https://tailwindui.com/img/ecommerce-images/product-feature-03-detail-04.jpg'},
-            {image: 'https://tailwindui.com/img/ecommerce-images/product-feature-03-detail-04.jpg'},
+            {image: 'https://www.comuseum.com/wp-content/uploads/2014/12/gu-kaizhi1-325x250.jpg'},
+            {image: 'https://media.istockphoto.com/id/676327038/photo/businessman-or-politician-making-speech-behind-the-pulpit.jpg?s=612x612&w=0&k=20&c=8le3__oZ4a05-P9Wn0sOeo0XrVHv04DL1AorORCmTNQ='},
+            {image: 'https://www.redwoodlogistics.com/wp-content/uploads/2018/08/tariff-1.jpg'},
+            {image: 'https://t3.ftcdn.net/jpg/02/60/23/36/360_F_260233606_PRvtXUixspT91c3NkCWEUZDk0EvOiTBy.jpg'},
+            {image: 'https://www.theladders.com/wp-content/uploads/handshake_190617.jpg'},
+            {image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCHQDFgEkW90dAguj91CtkFJbyE7pp4-zTvM4--v41RtmYOka3zrNZh7n2xW0_t9XnmJk&usqp=CAU'},
         ]
         ,
         features: [{

@@ -9,7 +9,7 @@ export default function Two_column(){
             {/* Section: Design Block */}
             <section className="mb-32 text-gray-800 text-center">
                 <h2 className="text-3xl font-bold mb-12">
-                    How will Voters and Organizations benefit from <u onClick={() => setFraud(!fraud)} className="text-red-700">Kojin? <div className={"text-xs"}>(click me)</div></u>
+                    How will Voters and Organizations benefit from <u onClick={() => setFraud(!fraud)} className="text-red-700">Kojin? <div className={"text-xs cursor-pointer"}>(click me)</div></u>
                 </h2>
                 {!fraud && <div className={'mb-32 text-gray-800 text-center'}>
                     <h2 className="text-5xl font-bold mb-12 ">
