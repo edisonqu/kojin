@@ -13,36 +13,51 @@ import Footer from "../Components/Footer/Footer";
 
 function Economic() {
     const about_datas = [{
-        title1: 'Learn more about Kojin',
-        subtitle1: 'Political and Legal Information',
-        p1: 'Kojin is a democratic nation with a presidential system of government. The President is the head of state and government, and is elected by the citizens through a popular vote. The President serves a four-year term and is eligible for re-election. The President has the power to veto legislation and appoint judges to the judiciary, among other powers.',
-        p2: 'The legal system in Kojin is based on civil law, with a separate system of administrative courts to handle disputes between citizens and the government. The judiciary is independent and operates separately from the legislative and executive branches of government. The constitution guarantees the rights of citizens, including freedom of speech, religion, and assembly. The country also has a robust system of checks and balances to ensure that no one branch of government becomes too powerful.',
-        image1:'https://i0.wp.com/oecd-development-matters.org/wp-content/uploads/2020/10/democracy-voting-1.jpg?resize=1000%2C567&ssl=1',
-        image1Redirect:'political',
-        subtitle2:'Economic Information',
-        p3:"Kojin's economic system is a mixed economy, with a balance of both private enterprise and government intervention. The country is highly developed with a diversified and robust economy, which is reflected by its high ranking on the Economic Freedom Index. The index number for Kojin is currently at 80.7, which places it among the top countries in the world in terms of economic freedom.",
-        p4:"The Gross Domestic Product of the country is strong, with a GDP of $6.77 trillion, which is the result of a well-functioning market economy, low barriers to trade and investment, and a highly educated and skilled workforce. The country's economy is driven by various sectors including manufacturing, services, and tourism. Kojin also has a low unemployment rate and a high standard of living.",
-        image2:'https://images.mktw.net/im-650088?width=700&height=393',
-        image2Redirect:'economic',
-    },{
-        title1: '',
-        subtitle1: 'Technological and Infrastructure',
-        p1: 'Kojin is a technologically advanced country with a highly developed infrastructure. The country has a high overall WEF Global Competitiveness Ranking, currently at the top 10, reflecting its strong performance in areas such as technological readiness, innovation, and business sophistication.',
-        p2: 'The country has a well-established and highly efficient transportation infrastructure, including a comprehensive network of highways, railroads, and airports. Additionally, Kojin has a robust telecommunications infrastructure, with widespread access to high-speed internet and mobile services.',
-        image1:'https://t4.ftcdn.net/jpg/03/08/69/75/360_F_308697506_9dsBYHXm9FwuW0qcEqimAEXUvzTwfzwe.jpg',
-        image1Redirect:'advantages',
-        subtitle2:'Socio-Cultural Information',
-        p3:'Kojin is a culturally diverse country, with a population of around 150 million people. The majority of the population speaks the official language, which is a blend of both Korean and Japanese languages, but there are also many other languages spoken by different communities. The country is known for its rich cultural heritage, with a mixture of traditional customs and modern influences.',
-        p4:'Sport plays an important role in Kojin\'s culture, with a variety of major sporting leagues. The most popular sports in the country include soccer, baseball, and basketball. The country has a strong sporting culture, with many top-level teams and players competing at the national and international level. The country also has many world-class sports facilities and stadiums, which are regularly used to host major sports events.',
-        image2:'https://assets.weforum.org/article/image/lsY_TFqKMEnOjvD6VtqutBxOULu_RlqUZzIk4zcJPMk.JPG',
-        image2Redirect:'socio',
+        title1: 'Learn More About Kojin\'s economy',
+        subtitle1: 'Economic System',
+        p1: 'Type of economic system: Kojin has a mixed economy that combines elements of both capitalism and socialism. The country has a market-based economy with private enterprise and government intervention, which provides a stable environment for business and investment.\n' +
+            '\n' +
+            'Currency: The currency used in Kojin is called the Kojin Dollar.\n' +
+            '\n',
+        p2: 'Natural economic resources: Kojin is blessed with abundant natural resources such as fertile land, minerals, and water resources. These resources are important to the country\'s economy and are exploited for agricultural production, mining and hydroelectric power generation.\n Currency strength: The Kojin Dollar has been stable over time, and its value has remained consistent in relation to other major currencies.\n' +
+            '\n',
+        image1:'',
+        image1Redirect:'',
+        subtitle2:'Economic Indicator\n' +
+            '\n',
+        p3:'GDP per capita: The GDP per capita in Kojin is high and has been steadily increasing over the years. This indicates a strong and growing economy, which would be beneficial for hosting the World Cup.\n' +
+            '\n' +
+            'GDP growth rate: The GDP growth rate in Kojin is positive, indicating a steady and consistent growth in the economy, which is a good indicator for the country\'s ability to host the World Cup.\n',
+       p4:'Currency strength: The Kojin Dollar has been stable over time, and its value has remained consistent in relation to other major currencies.' + 'Inflation rate: The inflation rate over the last 5 years has been low, which means that the purchasing power of the Kojin dollar has remained stable and consistent.',
+        image2:'',
+        image2Redirect:'',
 
-    }]
+    },
+        {
+            title1: '',
+            subtitle1: 'International Trade',
+            p1: 'Foreign relations: Kojin has good relations with most countries and is actively engaged in international trade and investment.\n' +
+                '\n' +
+                'Major exports: Kojin\'s major exports include manufactured goods, technology products, and agricultural products.\n' +
+                '\n' +
+                'Exporting Partners: Kojin\'s major exporting partners include developed countries such as USA, Europe and Asia.',
+            p2: 'Major imports: Kojin\'s major imports include raw materials, machinery, and consumer goods.\n' +
+                '\n' +
+                'Importing Partners: Kojin\'s major importing partners include countries like China, Japan, and South Korea. Major MNCs: Kojin is home to several major multinational corporations in various industries such as technology, manufacturing, and finance. These companies have a strong presence in the global market and bring in significant investment and employment opportunities to the country.',
+            image1:'',
+            image1Redirect:'',
+            subtitle2:'Labour Market',
+            p3:'Unemployment rate: The unemployment rate in Kojin is low, indicating a strong and stable labor market. This is a positive indicator for hosting the World Cup, as it would provide a steady supply of workers for the tournament.',
+            p4:'Average Household Income: The average household income in Kojin is high, indicating a strong and growing economy. This would provide a solid base for the World Cup games, as it would show that the country has the financial means to host the event successfully.',
+            image2:'',
+            image2Redirect:'',
+
+        }]
     return(
         <div>
             <Hero/>
             <About/>
-            {/*{about_datas.map(data => <Content data={data}/>)}*/}
+            {about_datas.map(data => <Content data={data}/>)}
             <Footer/>
 
         </div>

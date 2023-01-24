@@ -11,7 +11,7 @@ import CardWithImage from "../Components/Tailwind/CardWithImage";
 import Features from "../Components/Tailwind/Features";
 import Content from "../Components/Content/Content";
 import About from "../Components/Content/About";
-
+import Cards3 from "../Components/Tailwind/Cards3";
 
 function Background() {
 
@@ -20,6 +20,7 @@ function Background() {
 
             <Hero/>
             <About/>
+            <Cards3/>
 
         </div>
     )
